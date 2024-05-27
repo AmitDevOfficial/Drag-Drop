@@ -2,13 +2,6 @@ body {
     background: rgb(84, 46, 118);
 }
 
-body.whiteBox{
-    width: 100%;
-    height: 100Vh;
-}
-body .dashed .imgBox{
-    max-width: 500px;
-}
 .whiteBox {
     border: 3px solid black;
     height: 150px;
@@ -20,13 +13,14 @@ body .dashed .imgBox{
 }
 
 .imgBox {
-    background-image: url('iron.png');
-    height: 100%; 
-    width: 100%; 
-    max-width: 500px;
+    background-image: url(iron.png);
+    height: 105%;
+    top: -4px;
+    width: 94%;
+    max-width: 519px;
     background-size: cover;
     position: relative;
-    left: 8px;
+    left: 1px;
 }
 
 .hold{

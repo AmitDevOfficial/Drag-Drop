@@ -8,7 +8,7 @@ imgBox.addEventListener("dragstart", (e) => {
     console.log("Draged has been start");
     e.target.className += " hold";
     setTimeout(() => {
-        e.target.className = ' hide';
+        e.target.className = 'hide';
     }, 0)
 })
 
@@ -27,7 +27,7 @@ for (whiteBox of whiteBoxes) {
 
     whiteBox.addEventListener("dragenter", (e) => {
         console.log("Dragenter ove has been started");
-        e.target.className += "dashed";
+        e.target.className += " dashed";
     })
 
 
